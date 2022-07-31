@@ -5,6 +5,8 @@ import HookUseLayoutEffect from './leanning/hook-use-layout-effect'
 import HookUseRef from './leanning/hook-use-ref'
 import LeanMeno from './leanning/memo'
 import HookUseMemo from './leanning/hook-use-memo'
+import HookUseContent from './leanning/hook-use-context'
+import HookUseImperativeHandle from './leanning/hook-use-imperativehandle'
 function App() {
   return (
       <div>
@@ -15,7 +17,9 @@ function App() {
         {/* <HookUseLayoutEffect/> */}
         {/* <HookUseRef/> */}
         {/* <LeanMeno/> */}
-        <HookUseMemo/>
+        {/* <HookUseMemo/> */}
+        {/* <HookUseContent/> */}
+        <HookUseImperativeHandle/>
       </div>
   )
 }
