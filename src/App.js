@@ -7,6 +7,7 @@ import LeanMeno from './leanning/memo'
 import HookUseMemo from './leanning/hook-use-memo'
 import HookUseContent from './leanning/hook-use-context'
 import HookUseImperativeHandle from './leanning/hook-use-imperativehandle'
+import LeanRouter from './leanning/router'
 function App() {
   return (
       <div>
@@ -19,7 +20,8 @@ function App() {
         {/* <LeanMeno/> */}
         {/* <HookUseMemo/> */}
         {/* <HookUseContent/> */}
-        <HookUseImperativeHandle/>
+        {/* <HookUseImperativeHandle/> */}
+        <LeanRouter/>
       </div>
   )
 }
