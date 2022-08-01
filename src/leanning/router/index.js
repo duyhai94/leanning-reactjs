@@ -2,6 +2,10 @@
 import { Routes, Route, Link } from "react-router-dom";
 import HomePages from './Home'
 import AboutPages from "./About";
+/**
+ * element nhận function component
+ * 
+ */
 
 function App() {
     return(
